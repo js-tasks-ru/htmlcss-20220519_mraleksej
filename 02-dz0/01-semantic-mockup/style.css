@@ -1,0 +1,61 @@
+body{
+	width: 800px;
+	margin:auto;
+}
+
+h1,h2,a,li,p {
+	color:white;
+}
+
+h2 {
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+ul,ol {
+	padding-bottom: 20px;
+}
+
+header{
+	width: 800px;
+	background-color: red;
+	text-align: center;
+}
+
+header h1 {
+	font-size:48px;
+}
+
+nav{
+	background-color: orange;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+}
+
+nav a{
+	font-size:24px;
+}
+
+main{
+	width: 800px;
+	float: left;
+	background-color: green;
+}
+
+article{
+	width: 780px;
+	margin:auto;
+	background-color: blue;	
+}
+
+footer{
+	width: 800px;
+	float: left;
+	background-color: magenta;
+	text-align: center;
+}
+
+footer p{
+	font-size:24px;	
+}
