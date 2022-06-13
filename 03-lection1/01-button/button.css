@@ -46,11 +46,6 @@
 }
 
 .button:disabled{
-    cursor: not-allowed;
-    padding: 15px 56px;
-}
-.button:disabled:hover{
-    cursor: not-allowed;
-    padding: 15px 56px;
-    opacity: .3;
+    opacity: 0.5;
+    pointer-events: none
 }
