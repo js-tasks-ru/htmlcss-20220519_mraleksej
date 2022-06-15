@@ -63,3 +63,8 @@
     background: var(--grey-2);
     border-color:  var(--grey-2);
 }
+
+.radio__input:disabled ~ .radio__state
+.radio__content{
+    pointer-events: none;
+}
