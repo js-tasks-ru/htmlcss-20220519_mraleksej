@@ -6,6 +6,40 @@
         <link rel="stylesheet" href="./toggler.css">
     </head>
     <body>
-
+        <div class="page" style="display: flex; flex-direction: column; gap: 15px;">
+            <label class="toggle">
+                <input type="checkbox" class="toggle__input">
+                <div class="toggle__state">
+                    <div class="toggle__content">
+                        <svg class="toggle__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="toggle__icon_color" width="24" height="24" rx="12" fill="white"/>
+                        </svg>
+                    </div>
+                    <div class="toggle__title">Off</div>
+                </div>
+            </label>
+            <label class="toggle">
+                <input type="checkbox" class="toggle__input" checked>
+                <div class="toggle__state">
+                    <div class="toggle__content">
+                        <svg class="toggle__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="toggle__icon_color" width="24" height="24" rx="12" fill="white"/>
+                        </svg>
+                    </div>
+                    <div class="toggle__title">On</div>
+                </div>
+            </label>
+            <label class="toggle">
+                <input type="checkbox" class="toggle__input" disabled>
+                <div class="toggle__state">
+                    <div class="toggle__content">
+                        <svg class="toggle__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="toggle__icon_color" width="24" height="24" rx="12" fill="white"/>
+                        </svg>
+                    </div>
+                    <div class="toggle__title">On</div>
+                </div>
+            </label>
+        </div>
     </body>
 </html>
